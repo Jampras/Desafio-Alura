@@ -1,0 +1,1 @@
+esse é um codificador e decodificador feito por joao pedro ele funciona baseado em regras com vogais e substituição 

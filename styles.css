@@ -1,0 +1,150 @@
+div.boneco{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-image: url("boneco.png");
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient( to bottom, rgb(101, 101, 101), rgb(14, 34, 107) );
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 900px;
+    width: 90%;
+}
+
+.input-section, .output-section {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-section {
+    border-right: 2px solid #f0f0f0;
+    border-radius: 10px;
+}
+
+.input-section h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn.primary {
+    background-color: #044387;
+    color: #fff;
+}
+
+.btn.primary:hover {
+    background-color: #0056b3;
+}
+
+.btn.secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn.secondary:hover {
+    background-color: #565e64;
+}
+
+.output-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.output-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#outputText {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    box-sizing: border-box;
+    resize: none;
+    
+}
+
+.placeholder {
+    text-align: center;
+    color: #6c757d;
+    margin-top: 20px;
+    display: none;
+}
+
+.placeholder p {
+    margin: 5px 0;
+}
+
+#btnCopiar {
+    background-color: #6c757d;
+    color: #fff;
+    border-radius: 20px;
+}
+
+#btnCopiar:hover {
+    background-color: #565e64;
+}
